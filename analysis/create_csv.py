@@ -1,9 +1,9 @@
 import pandas as pd
-from getDataHistory import getHistory
+from getDataHistory import get_history
 from datetime import datetime
 import os
 
-trade_history = getHistory('login', 'password', 300, 'REAL')
+trade_history = get_history('email@gmail.com', 'password', 300, 'REAL')
 
 def object_to_save(trade_history):
     data = {}
